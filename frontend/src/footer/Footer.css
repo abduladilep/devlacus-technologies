@@ -1,0 +1,24 @@
+.footer{
+    background-color: rgb(182, 181, 181);
+    
+    margin: 0px;
+    
+}
+.foot-left{
+margin-left: 50px;
+
+}
+.footer-menu{
+    list-style: none;
+   
+}
+.footer-menu li{
+
+    display: flex;
+    cursor: pointer;
+    line-height: 5vh;
+   
+}
+.contact{
+    width: 80%
+}
