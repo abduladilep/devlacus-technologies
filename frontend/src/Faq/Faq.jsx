@@ -2,9 +2,7 @@ import { useState } from "react";
 import { questions } from "./api";
 import MyFaq from "./MyFaq";
 import "./faq.css";
-import logo2 from "../assets/logo2.png";
 import logo from "../assets/logo.png";
-import { Col, Row } from "react-bootstrap";
 
 function Faq() {
   const [data, setData] = useState(questions);
